@@ -155,5 +155,225 @@ align-items: flex-end;
     color: #4C4C4C;
 }
 .our{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #F6F6F6;
+    text-align: center;
+}
 
+.our__title{
+    color: #545454;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 60px;
+}
+.our__slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.slider__items{
+    background: #FAFAFA;
+}
+.iten__img{
+    border-radius: 9px 9px 0px 0px;
+}
+.item__name{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 30px 0;
+}
+.item__btn{
+    margin-bottom: 30px;
+    background: #FAFAFA;
+    border: 1px solid #F1CDB3;
+    transition: .3s;
+}
+.item__btn:hover{
+    background: #F1CDB3;
+}
+.shelter{
+    color: #545454;
+}
+.shelter__title{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    color: #545454;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.shelter__box{
+    margin: 0 auto 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+   /*  grid-template-columns: repeat(5, 1fr);  */
+   /*  grid-template-columns: 82px 89px 150px 101px 60px 165px 153px 143px 101px; */
+    /* grid-template-rows: repeat(2, 113px); */
+    
+    row-gap: 28px;
+    text-align: center;
+    justify-items: center;
+    align-items: end;
+}
+.box__items +.box__items{
+    /* justify-self: stretch;
+    align-self: center; */
+ margin-left: 120px;
+}
+.one {
+    /* grid-column: 1 / 2; */
+    grid-row: 1 / 1;
+    justify-self: start;
+}
+.two{
+   /*  grid-column: 3 / 4; */
+    grid-row: 1 / 1;
+    justify-self: start;
+}
+.three{
+    /* grid-column: 5 / 6; */
+    grid-row: 1 / 1;
+    justify-self: start;
+}
+.vo{
+    /* grid-column: 7 / 8; */
+    grid-row: 1 / 1;
+    justify-self: start;
+}
+.five{
+   /*  grid-column: 9 / 10; */
+    grid-row: 1 / 1;
+    justify-self: start;
+}
+.six{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    align-self: end;
+}
+.seven{
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    align-self: end;
+}
+.axt{
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+    align-self: end;
+}
+.noin{
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    align-self: end;
+}
+.box__item-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+.donation{
+    margin-top: 100px;
+    padding: 80px 0 100px 0;
+    background-color: #F6F6F6;
+}
+.donation__inner{
+    display: flex;
+    justify-content: center;
+}
+.donation__images{
+    margin-right: 30px;
+}
+.donation__content-column{
+    font-family: 'Georgia';
+    font-style: normal;
+    color: #545454;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+}
+.donation__content-column>*{
+    margin-bottom: 20px;
+}
+.donation__title{
+    font-size: 35px;
+    line-height: 45px;
+}
+.donation__text{
+    font-size: 15px;
+    line-height: 17px;
+}
+.donation__link{
+    display: block;
+    padding: 10px 15px 10px 15px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 23px;
+}
+.donation__content{
+    max-width: 380px;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+    letter-spacing: normal;
+}
+.footer{
+    background: url(../images/footer-background.png);
+    background: url(../images/footer-gradient-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer__inner{
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 40px 40px 0 40px;
+}
+.footer__items{
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+}
+.footer__items:nth-child(2){
+    gap: 32px;
+}
+.footer__item-title{
+    font-size: 35px;
+    line-height: 45px;
+}
+.footer__link{
+    display: block;
+    font-size: 20px;
+    line-height: 115%;
+    color: #F1CDB3;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.footer__link-img{
+    margin-right: 20px;
+}
+.footer__img{
+    display: block;
+    position: relative;
+    bottom: 0;
+    right: 0;
 }
